@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{C86D0061-F39E-4360-ADD9-1504468A07BD}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SharedApp</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)SharedApp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\BackgroundImageOpacityPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\BubblePopupTestPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\ChatListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\ContentViewDemoPage.xaml.cs">
+      <DependentUpon>ContentViewDemoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\CustomFontEffectPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\EllipticalMaterialButtonsPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\ExternalEmbeddedResourceImage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\FrameDemoPage.xaml.cs">
+      <DependentUpon>FrameDemoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\GesturesTestPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\HomePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\HtmlButtonsPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\HtmlLabelPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\HtmlLabelsAndButtons.xaml.cs">
+      <DependentUpon>HtmlLabelsAndButtons.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\ImageButtonCodePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\ImageButtonPage.xaml.cs">
+      <DependentUpon>ImageButtonPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\ImageCodePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\JellePage.xaml.cs">
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\LabelFitPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\LabelInHorizontalStackLayout.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\LayoutsPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\MaterialButtonsPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\MaterialSegmentControlPage.xaml.cs">
+      <DependentUpon>MaterialSegmentControlPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\ModalPopupTestPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\ModalPopupWithNavigationPages.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\MyPage.xaml.cs">
+      <DependentUpon>MyPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\SegmentNavPage1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\SegmentNavPage2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\SegmentNavPage3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\UnconstrainedLabelFitPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\UnRequestedSizeCapsInsetPage.xaml.cs">
+      <DependentUpon>UnRequestedSizeCapsInsetPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\ZenmekPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ImageCircle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ImageResourceExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\FreshContentPage.xaml.cs">
+      <DependentUpon>FreshContentPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Resources\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Pages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\bluebuttontrimmedtransp.9.png">
+      <LogicalName>SharedApp.Resources.bluebuttontrimmedtransp.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\bluebutton.9.png">
+      <LogicalName>SharedApp.Resources.bluebutton.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\button_01_pressing.png">
+      <LogicalName>SharedApp.Resources.button_01_pressing.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\button_01_default.png">
+      <LogicalName>SharedApp.Resources.button_01_default.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\BubbleInternal%403x.9.png">
+      <LogicalName>SharedApp.Resources.BubbleInternal%403x.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\BubbleInternal%402x.9.png">
+      <LogicalName>SharedApp.Resources.BubbleInternal%402x.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\236-lincoln.png">
+      <LogicalName>SharedApp.Resources.236-lincoln.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\236-baby.png">
+      <LogicalName>SharedApp.Resources.236-baby.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\BubbleInternal.9.png">
+      <LogicalName>SharedApp.Resources.BubbleInternal.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\BubbleExternal%403x.9.png">
+      <LogicalName>SharedApp.Resources.BubbleExternal%403x.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\BubbleExternal%402x.9.png">
+      <LogicalName>SharedApp.Resources.BubbleExternal%402x.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\BubbleExternal.9.png">
+      <LogicalName>SharedApp.Resources.BubbleExternal.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\redButton%40¾x.9.png">
+      <LogicalName>SharedApp.Resources.redButton%40¾x.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\redButton%404x.9.png">
+      <LogicalName>SharedApp.Resources.redButton%404x.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\redButton%403x.9.png">
+      <LogicalName>SharedApp.Resources.redButton%403x.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\redButton%402x.9.png">
+      <LogicalName>SharedApp.Resources.redButton%402x.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\redButton%401½x.9.png">
+      <LogicalName>SharedApp.Resources.redButton%401½x.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\redButton.9.png">
+      <LogicalName>SharedApp.Resources.redButton.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Info%40¾x.png">
+      <LogicalName>SharedApp.Resources.Info%40¾x.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Info%401½x.png">
+      <LogicalName>SharedApp.Resources.Info%401½x.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\ArrowR%401½x.png">
+      <LogicalName>SharedApp.Resources.ArrowR%401½x.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\ArrowR%40¾x.png">
+      <LogicalName>SharedApp.Resources.ArrowR%40¾x.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Info%403x.png">
+      <LogicalName>SharedApp.Resources.Info%403x.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Info%402x.png">
+      <LogicalName>SharedApp.Resources.Info%402x.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Info.png">
+      <LogicalName>SharedApp.Resources.Info.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\ArrowR%403x.png">
+      <LogicalName>SharedApp.Resources.ArrowR%403x.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\ArrowR%402x.png">
+      <LogicalName>SharedApp.Resources.ArrowR%402x.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\ArrowR.png">
+      <LogicalName>SharedApp.Resources.ArrowR.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\ghosts.png">
+      <LogicalName>SharedApp.Resources.ghosts.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\redribbon.png">
+      <LogicalName>SharedApp.Resources.redribbon.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\redribbon%403x.png">
+      <LogicalName>SharedApp.Resources.redribbon%403x.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\redribbon%402x.png">
+      <LogicalName>SharedApp.Resources.redribbon%402x.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\button%40¾x.9.png">
+      <LogicalName>SharedApp.Resources.button%40¾x.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\button%404x.9.png">
+      <LogicalName>SharedApp.Resources.button%404x.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\button%403x.9.png">
+      <LogicalName>SharedApp.Resources.button%403x.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\button%402x.9.png">
+      <LogicalName>SharedApp.Resources.button%402x.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\button%401½x.9.png">
+      <LogicalName>SharedApp.Resources.button%401½x.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\button.9.png">
+      <LogicalName>SharedApp.Resources.button.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\bubble.9.png">
+      <LogicalName>SharedApp.Resources.bubble.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\image.9.png">
+      <LogicalName>SharedApp.Resources.image.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\image%402x.9.png">
+      <LogicalName>SharedApp.Resources.image%402x.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\image%404x.9.png">
+      <LogicalName>SharedApp.Resources.image%404x.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\image%403x.9.png">
+      <LogicalName>SharedApp.Resources.image%403x.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\image%40¾x.9.png">
+      <LogicalName>SharedApp.Resources.image%40¾x.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\image%401½x.9.png">
+      <LogicalName>SharedApp.Resources.image%401½x.9.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\image.png">
+      <LogicalName>SharedApp.Resources.image.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\image%402x.png">
+      <LogicalName>SharedApp.Resources.image%402x.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\image%403x.png">
+      <LogicalName>SharedApp.Resources.image%403x.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\image%404x.png">
+      <LogicalName>SharedApp.Resources.image%404x.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\image%401½x.png">
+      <LogicalName>SharedApp.Resources.image%401½x.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\image%40¾x.png">
+      <LogicalName>SharedApp.Resources.image%40¾x.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\redGridBox.png">
+      <LogicalName>SharedApp.Resources.redGridBox.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Fonts\MaterialIcons-Regular.ttf">
+      <LogicalName>SharedApp.Resources.Fonts.MaterialIcons-Regular.ttf</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Fonts\Pacifico.ttf">
+      <LogicalName>SharedApp.Resources.Fonts.Pacifico.ttf</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\FreshContentPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\ContentViewDemoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\FrameDemoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\HtmlLabelsAndButtons.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\ImageButtonPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\JellePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\MaterialSegmentControlPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\MyPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\UnRequestedSizeCapsInsetPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
