@@ -1,0 +1,3 @@
+[submodule "Forms9Patch"]
+	path = Forms9Patch
+	url = https://baskren@bitbucket.org/baskren/forms9patch.git

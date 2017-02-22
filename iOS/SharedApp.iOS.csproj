@@ -112,16 +112,39 @@
     <Reference Include="PCLStorage">
       <HintPath>..\..\..\..\.nuget\packages\PCLStorage.1.0.2\lib\portable-Xamarin.iOS+Xamarin.Mac\PCLStorage.dll</HintPath>
     </Reference>
+    <Reference Include="Forms9Patch">
+      <HintPath>..\..\..\..\.nuget\packages\Forms9Patch.0.10.1.0\lib\Xamarin.iOS10\Forms9Patch.dll</HintPath>
+    </Reference>
+    <Reference Include="Forms9Patch.iOS">
+      <HintPath>..\..\..\..\.nuget\packages\Forms9Patch.0.10.1.0\lib\Xamarin.iOS10\Forms9Patch.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="FormsGestures">
+      <HintPath>..\..\..\..\.nuget\packages\Forms9Patch.0.10.1.0\lib\Xamarin.iOS10\FormsGestures.dll</HintPath>
+    </Reference>
+    <Reference Include="FormsGestures.iOS">
+      <HintPath>..\..\..\..\.nuget\packages\Forms9Patch.0.10.1.0\lib\Xamarin.iOS10\FormsGestures.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="NumericalMethods">
+      <HintPath>..\..\..\..\.nuget\packages\Forms9Patch.0.10.1.0\lib\Xamarin.iOS10\NumericalMethods.dll</HintPath>
+    </Reference>
+    <Reference Include="PCL.Utils">
+      <HintPath>..\..\..\..\.nuget\packages\Forms9Patch.0.10.1.0\lib\Xamarin.iOS10\PCL.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="PCL.Utils.iOS">
+      <HintPath>..\..\..\..\.nuget\packages\Forms9Patch.0.10.1.0\lib\Xamarin.iOS10\PCL.Utils.iOS.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
+    <InterfaceDefinition Include="Resources\LaunchScreen.xib" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -131,6 +154,36 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="ImageCircleRenderer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\balloons.jpg" />
+    <BundleResource Include="Resources\bubble.9.png" />
+    <BundleResource Include="Resources\button.9.png" />
+    <BundleResource Include="Resources\cat.jpg" />
+    <BundleResource Include="Resources\five.png" />
+    <BundleResource Include="Resources\five%401½x.png" />
+    <BundleResource Include="Resources\five%402x.png" />
+    <BundleResource Include="Resources\five%403x.png" />
+    <BundleResource Include="Resources\five%40¾x.png" />
+    <BundleResource Include="Resources\fivePlus.png" />
+    <BundleResource Include="Resources\fivePlus%401½x..png" />
+    <BundleResource Include="Resources\fivePlus%402x..png" />
+    <BundleResource Include="Resources\fivePlus%403x..png" />
+    <BundleResource Include="Resources\fivePlus%40¾x.png" />
+    <BundleResource Include="Resources\image.png" />
+    <BundleResource Include="Resources\image%401½x.png" />
+    <BundleResource Include="Resources\image%401½x~iPad.png" />
+    <BundleResource Include="Resources\image%402x.png" />
+    <BundleResource Include="Resources\image%402x~iPad.png" />
+    <BundleResource Include="Resources\image%403x.png" />
+    <BundleResource Include="Resources\image%403x~iPad.png" />
+    <BundleResource Include="Resources\image%404x.png" />
+    <BundleResource Include="Resources\image%404x~iPad.png" />
+    <BundleResource Include="Resources\image%40¾x.png" />
+    <BundleResource Include="Resources\image%40¾x~iPad.png" />
+    <BundleResource Include="Resources\image~iPad.png" />
+    <BundleResource Include="Resources\redribbon.png" />
   </ItemGroup>
   <Import Project="..\SharedApp\SharedApp.projitems" Label="Shared" Condition="Exists('..\SharedApp\SharedApp.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

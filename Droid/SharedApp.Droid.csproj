@@ -87,11 +87,36 @@
     <Reference Include="PCLStorage">
       <HintPath>..\..\..\..\.nuget\packages\PCLStorage.1.0.2\lib\monoandroid\PCLStorage.dll</HintPath>
     </Reference>
+    <Reference Include="Forms9Patch">
+      <HintPath>..\..\..\..\.nuget\packages\Forms9Patch.0.10.1.0\lib\MonoAndroid10\Forms9Patch.dll</HintPath>
+    </Reference>
+    <Reference Include="Forms9Patch.Droid">
+      <HintPath>..\..\..\..\.nuget\packages\Forms9Patch.0.10.1.0\lib\MonoAndroid10\Forms9Patch.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="FormsGestures">
+      <HintPath>..\..\..\..\.nuget\packages\Forms9Patch.0.10.1.0\lib\MonoAndroid10\FormsGestures.dll</HintPath>
+    </Reference>
+    <Reference Include="FormsGestures.Droid">
+      <HintPath>..\..\..\..\.nuget\packages\Forms9Patch.0.10.1.0\lib\MonoAndroid10\FormsGestures.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\.nuget\packages\Forms9Patch.0.10.1.0\lib\MonoAndroid10\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NumericalMethods">
+      <HintPath>..\..\..\..\.nuget\packages\Forms9Patch.0.10.1.0\lib\MonoAndroid10\NumericalMethods.dll</HintPath>
+    </Reference>
+    <Reference Include="PCL.Utils">
+      <HintPath>..\..\..\..\.nuget\packages\Forms9Patch.0.10.1.0\lib\MonoAndroid10\PCL.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="PCL.Utils.Droid">
+      <HintPath>..\..\..\..\.nuget\packages\Forms9Patch.0.10.1.0\lib\MonoAndroid10\PCL.Utils.Droid.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ImageCircleRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

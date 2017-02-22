@@ -35,6 +35,7 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Pages\ImageCodePage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Pages\JellePage.xaml.cs">
+      <DependentUpon>JellePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Pages\LabelFitPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Pages\LabelInHorizontalStackLayout.cs" />
